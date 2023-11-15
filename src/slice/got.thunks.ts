@@ -15,6 +15,9 @@ export const updateCharactersThunk = createAsyncThunk<
   {
     repo: ApiRepo;
     id: Character['id'];
-    updatedCharacter: Partial<
+    updatedCharacter: Partial<Character>;
   }
->;
+>('character/update', async ({ repo, id, updatedCharacter }) => {
+  const finalCharacter = await repo.setCharacters(id, updatedCharacter);
+  return finalCharacter;
+});

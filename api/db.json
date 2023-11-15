@@ -2,7 +2,7 @@
   "characters": [
     {
       "id": 1,
-      "isAlive": true,
+      "isAlive": false,
       "message": "You're all to die!",
       "name": "joffrey",
       "family": "Baratheon",
