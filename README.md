@@ -13,6 +13,8 @@ Reproduce el challenge Week 6 - Challenge 2
 - Utiliza la maqueta original (HTML/CSS) o los componentes que creaste
   para realizar los componentes de React necesarios para que funcione la aplicación
 
-- Testa todos los elementos
+- Agrega los thunks
+
+- Testa todos los elementos.
 
 - Opcionalmente, llevamos la lógica a un Custom Hook
